@@ -1,0 +1,20 @@
+isodd(x) : function(int) -> int {
+  return 1;
+}
+
+iseven(x) : function(int) -> int {
+  return 2;
+}
+
+main {
+
+  int x;
+  int y;
+  int fifo;
+  x = 3;
+  y = 2;
+  fifo = isodd(x);
+  fifo = iseven(y);
+
+  return 3;
+}

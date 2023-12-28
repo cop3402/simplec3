@@ -1,0 +1,13 @@
+divide(dec) : function(int) -> int {
+  int res;
+  res = (dec % 2 + 10 * (dec / 2));
+  return res;
+}
+
+main {
+  int dec;
+  int bin;
+  dec = 10;
+  bin = divide(dec);
+  return 1;  
+}

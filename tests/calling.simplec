@@ -1,0 +1,25 @@
+f(w) : function(int) -> int { 
+  int yo;
+  yo = 20;
+  return yo; 
+  }
+
+g(a) : function(int) -> int { 
+  return 10;
+  }
+
+main {
+
+  int x;
+  int a;
+  int e;
+  e = 3;
+  a = 2;
+  x = f(e);
+
+  e = 2 * g(a);
+  x = x - 1;
+
+  return 2;
+
+}

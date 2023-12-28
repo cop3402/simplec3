@@ -1,0 +1,53 @@
+a(a) : function(int) -> int { return 5; }
+
+b(b) : function(int) -> int { return 10; }
+
+c(c) : function(int) -> int { return 15; }
+
+d(d) : function(int) -> int { return 20; }
+
+e(e) : function(int) -> int { return 25; }
+
+f(f) : function(int) -> int { return 30; }
+
+g(g) : function(int) -> int { return 35; }
+
+main {
+
+  int x;
+  int var;
+  int res;
+  int tmp;
+  x = 1;
+  var = a(1);
+
+  tmp = 2 * var;
+  var = var - 1;
+
+  res = b(1);
+
+  tmp = 2 * var;
+  var = var + res;
+
+  res = c(1);
+
+  tmp = 2 * var;
+  var = ((res * res)/a(1));
+
+  res = d(var) % a(1);
+
+  tmp = 2 * var;
+  res = (((((var + g(x)*(var - g(x))*(var - 1)*(f(var) + b(var))*(var - 1)*(var + 1))))));
+
+  res = e(1);
+
+  tmp = 2 * var;
+  res = (((((var + g(x)*(var - g(x))*(var / 1)*(f(var) + b(var))*(var % 1)*(var + 1*(a(2))))))));
+
+  var = f(29);
+  res = g(35);
+  x = ((var * res)/res) + (res * res);
+
+  return 1;
+
+}

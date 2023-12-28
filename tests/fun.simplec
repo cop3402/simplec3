@@ -1,0 +1,77 @@
+f(xyz) : function(int) -> int { 
+  return 5; 
+}
+
+fu(abc) : function(int) -> int { 
+  return 5; 
+}
+
+fun(def) : function(int) -> int { 
+  return 5; 
+}
+
+func(fed) : function(int) -> int { 
+  return 5; 
+}
+
+funct(cba) : function(int) -> int { 
+  return 5; 
+}
+
+functi(zyx) : function(int) -> int { 
+  return 5; 
+}
+
+functio(w) : function(int) -> int { 
+  return 5; 
+}
+
+functionnn(u) : function(int) -> int { 
+  return 5; 
+}
+
+main {
+
+  int tmp;
+  int var;
+  int res;
+  int helper;
+  res = 1 + 1;
+  tmp = res - 1;
+  var = res * tmp;
+
+  helper = f(var);
+  var = helper;
+
+  helper = fu(res);
+  res = helper;
+
+  helper = fun(tmp);
+  tmp = helper;
+
+  tmp = (((var/res) * 10) % 10);
+  res = 1 + 1;
+  tmp = res - 1;
+
+  helper = func(var);
+
+  var = res * tmp;
+
+  helper = funct(var);
+
+  var = (((res*2)%3)/(((res))));
+
+  tmp = functi(6);
+  tmp = helper;
+
+  helper = functio(7);
+
+  tmp = functionnn(8);
+
+  tmp = var;
+  var = res;
+  res = tmp;
+
+  return 42;
+
+}

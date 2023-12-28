@@ -1,0 +1,29 @@
+fi(x) : function(int) -> int { return 20; }
+
+do(x) : function(int) -> int { return 100; }
+
+go(x) : function(int) -> int { return 42; }
+
+no(x) : function(int) -> int { return 0; }
+
+
+main {
+  int w;
+  int x;
+  int y;
+  int z;
+  x = fi(w);
+  y = do(x);
+  z = go(y);
+
+  w = (fi(x) + do(y)) / (do(x) - go(z));
+  x = go(x) * go(y) / go(w);
+  y = ((go(x) * 5) + (go(y) / go(w)));
+  z = (1 + fi(1) - (do(2)/10) % ((go(x) * 5) + (go(y) / go(w))));
+  x = no(x);
+  y = (do(2)) * x;
+  z = 777;
+  z = z % go(z);
+
+  return 5; 
+}

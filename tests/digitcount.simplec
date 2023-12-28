@@ -1,0 +1,46 @@
+digitminus(x) : function(int) -> int {
+  int returnVal;
+  returnVal = x - 100;
+  return returnVal;
+}
+
+digitadd(x) : function(int) -> int {
+  int returnVal;
+  returnVal = x + 1;
+  return returnVal;
+}
+
+digitmult(x) : function(int) -> int {
+  int returnVal;
+  returnVal = x * 10;
+  return returnVal;
+}
+
+digitdiv(x) : function(int) -> int {
+  int returnVal;
+  returnVal = (x / 100);
+  return returnVal;
+}
+
+digitmod(x) : function(int) -> int {
+  int returnVal;
+  returnVal = (x % 100);
+  return returnVal;
+}
+
+digitall(x) : function(int) -> int {
+  int returnVal;
+  returnVal = ((x - 234) + (x + 1) + (x * 10) + (x / 100) + (x % 1));
+  return returnVal;
+}
+
+main {
+  int a;
+  a = digitminus(1234);
+  a = digitadd(1234);
+  a = digitmult(1234);
+  a = digitmod(1234);
+  a = digitall(1234);
+
+  return 0;
+}

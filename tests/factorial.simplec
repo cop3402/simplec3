@@ -1,0 +1,19 @@
+factorial(x) : function(int) -> int {
+  x = x * x;
+  return x;
+}
+
+main {
+  int x;
+  int res;
+  x = 2;
+  res = factorial(x);
+  res = factorial(x);
+  res = factorial(x);
+  res = factorial(x);
+  res = factorial(x);
+  res = factorial(x);
+  res = factorial(x);
+
+  return 7;
+}
