@@ -161,8 +161,7 @@ void codegen(T_prog prog) {
     decllist = decllist->tail;
   }
 
-  // emit an .rodata section and label for strings
-  fprintf(stderr, "TODO: collect string constants");
+  // optional: emit an .rodata section and label for strings
 
   // go through each function
   codegen_funclist(prog->funclist);
